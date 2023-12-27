@@ -1,4 +1,6 @@
 # tRPC + Next.js + Prisma on Lambda + CloudFront
+[![Build](https://github.com/aws-samples/trpc-nextjs-ssr-prisma-lambda/actions/workflows/build.yml/badge.svg)](https://github.com/aws-samples/trpc-nextjs-ssr-prisma-lambda/actions/workflows/build.yml)
+
 This is a starter kit for a modern fullstack webapp on AWS. Features including:
 
 * ✅ Next.js app with both server / client side rendering
