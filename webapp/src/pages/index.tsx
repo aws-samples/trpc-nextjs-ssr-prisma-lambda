@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Ultra simple BSS</title>
+        <title>Ultra simple BBS</title>
       </Head>
       <div className="mx-8 my-2 p-4 rounded border border-black bg-gray-100">
         <div className="flex flex-col">
