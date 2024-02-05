@@ -610,6 +610,7 @@ exports[`Snapshot test 1`] = `
         "VpcPrivateSubnet2RouteTableAssociationA89CAD56",
       ],
       "Properties": {
+        "CACertificateIdentifier": "rds-ca-ecc384-g1",
         "DBClusterIdentifier": {
           "Ref": "DatabaseCluster5B53A178",
         },

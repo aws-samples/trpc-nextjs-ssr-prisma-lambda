@@ -20,6 +20,7 @@ export class Database extends Construct {
       engine: rds.DatabaseClusterEngine.auroraMysql({ version: rds.AuroraMysqlEngineVersion.VER_3_05_0 }),
       writer: rds.ClusterInstance.serverlessV2('Writer', {
         enablePerformanceInsights: true,
+        caCertificate: rds.CaCertificate.RDS_CA_ECC384_G1,
       }),
       vpc,
       serverlessV2MinCapacity: 0.5,
