@@ -1222,7 +1222,7 @@ exports[`Snapshot test 1`] = `
       "Properties": {
         "Code": {
           "ImageUri": {
-            "Fn::Sub": "\${AWS::AccountId}.dkr.ecr.\${AWS::Region}.\${AWS::URLSuffix}/cdk-hnb659fds-container-assets-\${AWS::AccountId}-\${AWS::Region}:b9ee6ff6d3c5b65178e11e137d6eb2fd10b5807efc738ef31908835242eb6d1a",
+            "Fn::Sub": "\${AWS::AccountId}.dkr.ecr.\${AWS::Region}.\${AWS::URLSuffix}/cdk-hnb659fds-container-assets-\${AWS::AccountId}-\${AWS::Region}:e002776695a7338152cae76f6d47e4fa2fd75ddcf2d834311347a705ff0476f0",
           },
         },
         "Environment": {
@@ -1391,7 +1391,7 @@ exports[`Snapshot test 1`] = `
       "Properties": {
         "Code": {
           "ImageUri": {
-            "Fn::Sub": "\${AWS::AccountId}.dkr.ecr.\${AWS::Region}.\${AWS::URLSuffix}/cdk-hnb659fds-container-assets-\${AWS::AccountId}-\${AWS::Region}:1c5ef4fe1f2b895ed8ddc8767c346c1bd159b5639055967186512d4671e7c2fc",
+            "Fn::Sub": "\${AWS::AccountId}.dkr.ecr.\${AWS::Region}.\${AWS::URLSuffix}/cdk-hnb659fds-container-assets-\${AWS::AccountId}-\${AWS::Region}:0524adb87a93c09fc82f40ed218abefe44df43922795cdf4c5cc6879e39b7cba",
           },
         },
         "Environment": {
@@ -1477,7 +1477,7 @@ exports[`Snapshot test 1`] = `
       },
       "Type": "AWS::Lambda::Function",
     },
-    "WebAppMigrationRunnerCurrentVersion32A4690Bc012dd224fbc9fcd0428e1109e316fe1": {
+    "WebAppMigrationRunnerCurrentVersion32A4690B0527b6efbb88326f63aab074c389824b": {
       "DependsOn": [
         "VpcPrivateSubnet1DefaultRouteBE02A9ED",
         "VpcPrivateSubnet1RouteTableAssociation70C59FA6",
@@ -1578,7 +1578,7 @@ exports[`Snapshot test 1`] = `
       "Properties": {
         "ExecuteOnHandlerChange": true,
         "HandlerArn": {
-          "Ref": "WebAppMigrationRunnerCurrentVersion32A4690Bc012dd224fbc9fcd0428e1109e316fe1",
+          "Ref": "WebAppMigrationRunnerCurrentVersion32A4690B0527b6efbb88326f63aab074c389824b",
         },
         "InvocationType": "RequestResponse",
         "ServiceToken": {
