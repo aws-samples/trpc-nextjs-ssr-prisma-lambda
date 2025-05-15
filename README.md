@@ -2,7 +2,7 @@
 [![Build](https://github.com/aws-samples/trpc-nextjs-ssr-prisma-lambda/actions/workflows/build.yml/badge.svg)](https://github.com/aws-samples/trpc-nextjs-ssr-prisma-lambda/actions/workflows/build.yml)
 
 > [!IMPORTANT]  
-> This repository is being archived. For a more modern and improved fullstack web application sample, please refer to [serverless-full-stack-webapp-starter-kit](https://github.com/aws-samples/serverless-full-stack-webapp-starter-kit) instead.
+> This repository is being archived. For a more modern and improved fullstack web application sample that uses Next.js App Router, please refer to [serverless-full-stack-webapp-starter-kit](https://github.com/aws-samples/serverless-full-stack-webapp-starter-kit) instead.
 
 This is a starter kit for a modern fullstack webapp on AWS. Features including:
 
